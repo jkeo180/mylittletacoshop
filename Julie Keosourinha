@@ -1,0 +1,533 @@
+About.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Little taco shop</h1>
+  <img class="img" src="https://t4.ftcdn.net/jpg/06/75/53/85/360_F_675538557_O93pAEZSS9DKNZUbK1BOgAEvLxdXepac.jpg">
+  <p>We are a local restraunt ran by Jorge a local born and raised 
+    in the Tampa bay Area and his wife Jessica.
+  </p>
+  <a href="menu.html">Our Menu</a>
+  <a href="contact.html">Contact us</a>
+  <a href="orderonline.html">About Us</a>
+  <a href="index.html">Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
+appetizers.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taco Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<img src="https://media.istockphoto.com/id/474048190/photo/nachos-supreme.jpg?s=612x612&w=0&k=20&c=CWnaGAVNGeF8sOF92BuZz7iM_JVBdfgO4TmPNokWcIg=" height="200px">
+  <h1>Appetizers </h1>
+  <ul>
+  <li>Chips and Salsa: A classic Mexican starter, served with fresh, homemade salsa.</li>
+  <li>Guacamole: A creamy avocado dip, often served with tortilla chips.</li>
+  <li>Queso Fundido: A melty cheese dip, often served with tortillas.</li>
+  </ul>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+burritos.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taco Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="data:image/jpeg;base64,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" height="250px">
+  <ul>
+    <h2>Burritos</h2>
+  <li>Bean-tastic Bean and Cheese Burrito: A classic, simple burrito with beans and cheese.</li> 
+ <li>Home Run Beef Burrito: Typically features seasoned ground beef as the protein.</li>
+<li>The King Burrito Carne Asada Burrito: Uses grilled, marinated steak as the protein.</li>
+<li>"Chicken Explosion" Chicken Burrito: Features grilled chicken as the protein.</li>
+  </ul>
+  </ul>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+contact.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Little taco shop</h1>
+  <img class="img" src="https://www.shutterstock.com/image-photo/brightly-colored-decorated-mexican-restaurant-260nw-2249404321.jpg">
+  <p>BienVididos EveryOne! We are located at <p>1234 main street tampa,fl</p>
+  <p>Our telephone number is 123-456-0869</p>
+  <p>Come in and visit Us,You can also order Online</p>
+  <script src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <div id="map" style="height:500px; width:100%;"></div>
+  <a href="menu.html">Our Menu</a>
+  <a href="about.html">About Us</a>
+  <a href="orderonline.html">Orderonline</a>
+  <a href="index.html">Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
+tacos.html
+desserts.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taco Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="https://img.texasmonthly.com/2021/08/chopchop-laredo-1-scaled.jpg?auto=compress&crop=faces&fit=fit&fm=pjpg&ixlib=php-3.3.1&q=45" height="200px">
+  <ul>
+  <h1>Different Types of Desserts</h1>
+  <h2>Desserts:</h2>
+<li>Churros: Deep-fried dough, sprinkled with sugar and cinnamon, often served with chocolate sauce.</li> 
+<li>Flan: A creamy custard dessert.</li> 
+<li>Sopaipillas: Deep-fried dough, sprinkled with cinnamon and sugar, often served with honey or butter.</li> 
+<li>Tacos de Churro: A sweet taco made with churros.</li>
+<li>Fried ice cream taco</li> 
+  </ul>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+drinks.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taco Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<img src="https://www.allrecipes.com/thmb/nx4jicnp0YmfruTXykIwD6c8gSI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Mexican-Strawberry-Water-by-Lela-2000-b86da1e0c11b4b6ba8d2369b29bb9178.jpg" height="200px">
+<body>
+  <h1>Drinks</h1>
+  <ul>
+Agua Frescas:
+<li>
+Fresh fruit or flower-based drinks, blended with water and sweetener. 
+</li>
+<li>
+A creamy rice and cinnamon-based drink. 
+</li>
+Limeade:
+<li>
+A refreshing and zesty lime-based drink. 
+</li>
+<li>
+  Cherry Limeade
+  </li>
+  <li>
+    fresh coconut
+    </li>
+ Soft Drinks:
+<li>
+Mexican Coke, Fanta, and other bottled soft drinks are also available. 
+Bottled Water:
+</li>
+  </ul>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <h1 style="display: flex; align-items: center;">
+  Little taco shop
+  <span style="margin-left: 10px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/4062/4062916.png" height="50px" width="50px">
+  </span>
+</h1>
+   <h2>Menu</h2>
+<div class="gallery">
+  <div class="tile">
+    <a href="appetizers.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Nachos-cheese.jpg" height="250px" alt="Nachos">
+      <div class="caption">Appetizers</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="tacos.html">
+      <img src="https://bukarestaurant.id/wp-content/uploads/2024/12/assorted-types-of-tacos.webp" height="250px" alt="Taco">
+      <div class="caption">Tacos</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="burritos.html">
+      <img src="https://healthyschoolrecipes.com/wp-content/uploads/2021/05/carne-asada-burrito-scaled.jpg" height="300px" alt="Burrito">
+      <div class="caption">Burrito</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="quesodillas.html">
+      <img src="https://mydominicankitchen.com/wp-content/uploads/2023/01/Beef-Quesadilla-My-Dominican-Kitchen-8-800x1200.jpg" height="300px" alt="Quesadillas">
+      <div class="caption">Quesodillas</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="drinks.html">
+      <img src="https://www.chowhound.com/img/gallery/14-popular-non-alcoholic-drinks-you-need-to-try-in-mexico/l-intro-1740508322.jpg" height="300px" alt="Drinks">
+      <div class="caption">Drinks</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="desserts.html">
+      <img src="https://www.thespruceeats.com/thmb/h9hTzwViqJIVYDuWQzc8xi7cB48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caramel-flan-individual-servings-2343004-hero-01-44e1e9d1ab954ef990505d69e19e856c.jpg" height="300px" alt="Desserts">
+      <div class="caption">Desserts</div>
+    </a>
+  </div>
+</div>
+
+<button type="button" id="orderOnlineBtn">Order Online</button>
+
+<script>
+  document.getElementById('orderOnlineBtn').addEventListener('click', function() {
+    window.location.href = 'orderonline.html';
+  });
+</script>
+  <a href="menu.html">Our Menu</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about.html">About Us</a>
+  <a href="orderonline.html">Order Online</a>
+  <script src="script.js"></script>
+</body>
+</html>
+menu.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Little taco shop</h1>
+  <h2>Menu</h2>
+<div class="gallery">
+  <div class="tile">
+    <a href="starters.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Nachos-cheese.jpg" height="250px" alt="Nachos">
+      <div class="caption">Nachos</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="tacos.html">
+      <img src="https://bukarestaurant.id/wp-content/uploads/2024/12/assorted-types-of-tacos.webp" height="250px" alt="Taco">
+      <div class="caption">Tacos</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="burritos.html">
+      <img src="https://healthyschoolrecipes.com/wp-content/uploads/2021/05/carne-asada-burrito-scaled.jpg" height="300px" alt="Burrito">
+      <div class="caption">Burrito</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="quesadillas.html">
+      <img src="https://mydominicankitchen.com/wp-content/uploads/2023/01/Beef-Quesadilla-My-Dominican-Kitchen-8-800x1200.jpg" height="300px" alt="Quesadillas">
+      <div class="caption">Quesadillas</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="drinks.html">
+      <img src="https://www.chowhound.com/img/gallery/14-popular-non-alcoholic-drinks-you-need-to-try-in-mexico/l-intro-1740508322.jpg" height="300px" alt="Drinks">
+      <div class="caption">Drinks</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="desserts.html">
+      <img src="https://www.thespruceeats.com/thmb/h9hTzwViqJIVYDuWQzc8xi7cB48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caramel-flan-individual-servings-2343004-hero-01-44e1e9d1ab954ef990505d69e19e856c.jpg" height="300px" alt="Desserts">
+      <div class="caption">Desserts</div>
+    </a>
+  </div>
+</div>
+
+<button type="button" id="orderOnlineBtn">Order Online</button>
+
+<script>
+  document.getElementById('orderOnlineBtn').addEventListener('click', function() {
+    window.location.href = 'orderonline.html';
+  });
+</script>
+<br>
+  <a href="index.html">Homepage</a>
+  <a href="subdirectory/contact.html">Contact us</a>
+  <a href="subdirectory/about.html">About Us</a>
+  <script src="script.js"></script>
+</body>
+</html>
+tacos.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taco Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<img src="https://media.istockphoto.com/id/1270865792/photo/assortment-of-mexican-tacos-on-white-background.jpg?s=612x612&w=0&k=20&c=tgsB10LJ-sXwNiIcrxzR4kJcgdVMBccayA-12OquvLY=" height="200"px>
+<h1>tacos</h1>
+ <body>
+<ul>
+<li>Steak-tacular Tacos:Beef Taco: Taco filled with seasoned ground beef, onions, and your choice of toppings. ($X.XX) </li>
+<li>Chicken Taco Bliss:Chicken Taco: Grilled chicken with your choice of toppings. ($X.XX)</li>
+<li>Carnitas Craze Carnitas Taco: Slow-cooked, shredded pork with your choice of toppings. ($X.XX)</li>
+<div class="specialty-tacos">
+  <h3>specialty tacos:</h3>
+  <ul>
+Specialty Tacos:
+<li>Catch of the Day Fish Taco: Grilled white fish with a zesty slaw and your choice of toppings. ($X.XX)</li>
+<li>Shrimp-tastic Shrimp Taco:** Succulent shrimp with a spicy citrus marinade and your choice of toppings. ($X.XX)</li>
+<li>The Herbivore's Haven, Vegetarian Taco:** Your choice of fillings, such as black beans, corn, or mushrooms. ($X.XX)</li>
+<li>The Taco Palooza taco family platter</li>
+  </ul>
+</div>
+<div class="Taco-Toppings">
+  <ul>
+Taco Toppings:
+<li>(These could be listed separately, allowing customers to customize their tacos.)
+Lettuce, tomato, onion, cheese, salsa, guacamole, sour cream
+</li>
+  </ul>
+</div>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+orderonline.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Little taco shop</h1>
+  <img class="img" src="https://www.juanitas.com/wp-content/uploads/2023/09/blog-Fuego-Taco-Board.jpg">
+  <h1>Order Online</h1>
+<form id="orderForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  <label for="contact">Contact Number:</label>
+  <input type="tel" id="contact" name="contact" required>
+  <br>
+  <label for="item">Select Item:</label>
+  <select id="item" name="item">
+    <option value="taco">Taco</option>
+    <option value="burrito">Burrito</option>
+    <option value="quesadilla">Quesadilla</option>
+  </select>
+  <br>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" required>
+  <br>
+  <button type="submit">Submit Order</button>
+</form>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const orderForm = document.getElementById('orderOnlineBtn');
+    if(orderOnlineBtn){
+      orderOnlineBtn.addEventListener('submit', function() {
+        window.location.href ='orderonline.html';
+      });
+    } 
+          const orderForm = document.getElementById('orderForm');
+  if (orderForm) {
+    orderForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const contact = document.getElementById('contact').value;
+      const item = document.getElementById('item').value;
+      const quantity = document.getElementById('quantity').value;
+
+      alert(`Order Details:\nName: ${name}\nContact: ${contact}\nItem: ${item}\nQuantity: ${quantity}`);
+    });
+  }
+  
+  const orderOnlineBtn = document.getElementById('orderOnlineBtn');
+  if (orderOnlineBtn) {
+    orderOnlineBtn.addEventListener('click', function() {
+      window.location.href = 'orderonline.html';
+  const button = document.querySelector('button');
+  if (button) {
+    button.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'lightblue';
+    });
+  }
+});
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const item = document.getElementById('item').value;
+        const quantity = document.getElementById('quantity').value;
+
+      
+        alert(`Order Details:\nName: ${name}\nContact: ${contact}\nItem: ${item}\nQuantity: ${quantity}`);
+
+    
+</script>
+
+  <a href="menu.html">Our Menu</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about.html">About Us</a>
+  <a href="orderonline.html">Order Online</a>
+  <script src="script.js"></script>
+</body>
+</html>
+quesodillas.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quesodilla Varieties</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <img src=https://media.istockphoto.com/id/1137678835/photo/close-up-baked-chicken-and-cheese-quesadillas-served-with-salsa-and-guacamole-on-stone-plate.jpg?s=612x612&w=0&k=20&c=VrncDs8GW2H477CsPMe760FgPPb-Gq2Wgb7KBjlfCTo= height="200px">
+  <h1>Different Types of Quesodillas</h1>
+  <ul>
+  <h2>Quesodillas:</h2>
+  <li>Quesodilla CentralCheese Only: Simple and delicious, just melty cheese.</li>
+  <li>Chicky-Dilla Sliced chicken, seasoned with your favorite spices.</li>
+  <li>"The Beefzilla" Beef: Flavors from the grill or slow-cooked.</li>
+  <li>"The Pig Out" Pork: Slow-cooked or grilled, often with a spicy marinade.</li>
+  <li>"The guiltfree Godness" Vegetarian: A mix of sautéed vegetables, beans, and cheese.</li>
+  </ul>
+  <a href="menu.html">Back to Menu</a>
+</body>
+</html>
+javascript
+document.querySelector('button').addEventListener('click', function() {
+  document.body.style.backgroundColor = 'lightblue';
+});
+document.querySelector('button').addEventListener('click', function() {
+  alert('Thank you for choosing to order online!');
+});
+document.querySelectorAll('.tile').forEach(tile => {
+  tile.addEventListener('click', function() {
+    
+  });
+});
+document.getElementById('orderForm').addEventListener('submit', function(event) { 
+  event.preventDefault(); 
+
+  const name = document.getElementById('name').value;
+  const contact = document.getElementById('contact').value;
+  const item = document.getElementById('item').value;
+  const quantity = document.getElementById('quantity').value;
+
+  alert(`Order Details:\nName: ${name}\nContact: ${contact}\nItem: ${item}\nQuantity: ${quantity}`);
+ 
+  
+});
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('orderOnlineBtn').addEventListener('click', function() {
+    window.location.href = 'orderonline.html';
+  });
+
+  document.getElementById('orderForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+  
+  });
+});
+css
+tile {
+  border: 2px solid #4CAF50; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  font-family: 'Poetsen One', sans-serif;
+}
+
+caption {
+  font-size: 1.2em; 
+  color: #333; 
+  font-weight: bold; 
+}
+h1 {
+display: flex;
+border-radius: 10px;
+flex-direction: column;
+background-color:gold;
+font-style:oblique;
+font-size: 2.5em;
+align-items: center;
+}
+h2{
+  display: block;
+  flex-direction: column;
+  background-color: yellow;
+  font-style: unset;
+  font-size: 2.0em;
+}
+.img {
+  height: 240px;
+  width: 340px;
+}
+a{
+  color: red;
+  text-decoration:underline; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  font-family: 'Poetsen One',sans-serif;
+}
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.tile {
+  min-width: 200px;
+  flex: 0 0 auto; 
+  margin-right: 10px;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background-color:aquamarine;
+}
+ul{
+  border: 2px solid ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color:gold;
+  margin: 20px;
+}
+li {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.specialty-tacos ul {
+  background-color:aquamarine;
+  padding: 10px 20px; 
+  border-radius: 10px; 
+}
+.taco-toppings ul{
+  background-color: aquamarine;
+  padding: 10px, 20px;
+  border-radius:10px
+}
+.tile:hover {
+  transform: scale(2.05);
+  transition: transform 0.5s ease; 
+  border-color: #FFA500; 
+}
