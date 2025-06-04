@@ -1,0 +1,91 @@
+tile {
+  border: 2px solid #4CAF50; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  font-family: 'Poetsen One', sans-serif;
+}
+
+caption {
+  font-size: 1.2em; 
+  color: #333; 
+  font-weight: bold; 
+}
+h1 {
+display: flex;
+border-radius: 10px;
+flex-direction: column;
+background-color:gold;
+font-style:oblique;
+font-size: 2.5em;
+align-items: center;
+}
+h2{
+  display: block;
+  flex-direction: column;
+  background-color: yellow;
+  font-style: unset;
+  font-size: 2.0em;
+}
+.img {
+  height: 240px;
+  width: 340px;
+}
+a{
+  color: red;
+  text-decoration:underline; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  font-family: 'Poetsen One',sans-serif;
+}
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.tile {
+  min-width: 200px;
+  flex: 0 0 auto; 
+  margin-right: 10px;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background-color:aquamarine;
+}
+ul{
+  border: 2px solid ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color:gold;
+  margin: 20px;
+}
+li {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.specialty-tacos ul {
+  background-color:aquamarine;
+  padding: 10px 20px; 
+  border-radius: 10px; 
+}
+.taco-toppings ul{
+  background-color: aquamarine;
+  padding: 10px, 20px;
+  border-radius:10px
+}
+.tile:hover {
+  transform: scale(2.05);
+  transition: transform 0.5s ease; 
+  border-color: #FFA500; 
+}

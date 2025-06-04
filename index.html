@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <h1 style="display: flex; align-items: center;">
+  Little taco shop
+  <span style="margin-left: 10px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/4062/4062916.png" height="50px" width="50px">
+  </span>
+</h1>
+   <h2>Menu</h2>
+<div class="gallery">
+  <div class="tile">
+    <a href="appetizers.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Nachos-cheese.jpg" height="250px" alt="Nachos">
+      <div class="caption">Appetizers</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="tacos.html">
+      <img src="https://bukarestaurant.id/wp-content/uploads/2024/12/assorted-types-of-tacos.webp" height="250px" alt="Taco">
+      <div class="caption">Tacos</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="burritos.html">
+      <img src="https://healthyschoolrecipes.com/wp-content/uploads/2021/05/carne-asada-burrito-scaled.jpg" height="300px" alt="Burrito">
+      <div class="caption">Burrito</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="quesodillas.html">
+      <img src="https://mydominicankitchen.com/wp-content/uploads/2023/01/Beef-Quesadilla-My-Dominican-Kitchen-8-800x1200.jpg" height="300px" alt="Quesadillas">
+      <div class="caption">Quesodillas</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="drinks.html">
+      <img src="https://www.chowhound.com/img/gallery/14-popular-non-alcoholic-drinks-you-need-to-try-in-mexico/l-intro-1740508322.jpg" height="300px" alt="Drinks">
+      <div class="caption">Drinks</div>
+    </a>
+  </div>
+  <div class="tile">
+    <a href="desserts.html">
+      <img src="https://www.thespruceeats.com/thmb/h9hTzwViqJIVYDuWQzc8xi7cB48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caramel-flan-individual-servings-2343004-hero-01-44e1e9d1ab954ef990505d69e19e856c.jpg" height="300px" alt="Desserts">
+      <div class="caption">Desserts</div>
+    </a>
+  </div>
+</div>
+
+<button type="button" id="orderOnlineBtn">Order Online</button>
+<script>
+  document.getElementById('orderOnlineBtn').addEventListener('click', function() {
+    window.location.href = 'orderonline.html';
+  });
+</script>
+<br>
+  <a href="index.html">Homepage</a>
+  <a href="subdirectory/contact.html">Contact us</a>
+  <a href="subdirectory/about.html">About Us</a>
+  <script src="script.js"></script>
+</body>
+</html>

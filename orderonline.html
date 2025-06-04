@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little Taco shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Little taco shop</h1>
+  <img class="img" src="https://www.juanitas.com/wp-content/uploads/2023/09/blog-Fuego-Taco-Board.jpg">
+  <h1>Order Online</h1>
+<form id="orderForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  <label for="contact">Contact Number:</label>
+  <input type="tel" id="contact" name="contact" required>
+  <br>
+  <label for="item">Select Item:</label>
+  <select id="item" name="item">
+    <option value="taco">Taco</option>
+    <option value="burrito">Burrito</option>
+    <option value="quesadilla">Quesadilla</option>
+  </select>
+  <br>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" required>
+  <br>
+  <button type="submit">Submit Order</button>
+</form>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const orderForm = document.getElementById('orderOnlineBtn');
+    if(orderOnlineBtn){
+      orderOnlineBtn.addEventListener('submit', function() {
+        window.location.href ='orderonline.html';
+      });
+    } 
+          'const orderForm' = document.getElementById('orderForm');
+  if (orderForm) {
+    orderForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const contact = document.getElementById('contact').value;
+      const item = document.getElementById('item').value;
+      const quantity = document.getElementById('quantity').value;
+
+      alert(`Order Details:\nName: ${name}\nContact: ${contact}\nItem: ${item}\nQuantity: ${quantity}`);
+    });
+  }
+  
+  const orderOnlineBtn = document.getElementById('orderOnlineBtn');
+  if (orderOnlineBtn) {
+    orderOnlineBtn.addEventListener('click', function() {
+      window.location.href = 'orderonline.html';
+  const button = document.querySelector('button');
+  if (button) {
+    button.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'lightblue';
+    });
+  }
+});
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const item = document.getElementById('item').value;
+        const quantity = document.getElementById('quantity').value;
+
+      
+        alert(`Order Details:\nName: ${name}\nContact: ${contact}\nItem: ${item}\nQuantity: ${quantity}`);
+
+    
+</script>
+
+  <a href="menu.html">Our Menu</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about.html">About Us</a>
+  <a href="orderonline.html">Order Online</a>
+  <script src="script.js"></script>
+</body>
+</html>
